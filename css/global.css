@@ -1,0 +1,53 @@
+/* Arquivo global.css - Contém estilos gerais (cores, cabeçalho, rodapé, fontes) */
+:root {
+    --cor-primaria: #4CAF50; /* Verde principal */
+    --cor-secundaria: #ffffff; /* Branco */
+    --cor-texto: #333333; /* Cinza escuro */
+    --cor-fundo: #f8f8f8; /* Fundo claro */
+    --cor-hover: #388E3C; /* Verde escuro para hover */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--cor-fundo);
+    color: var(--cor-texto);
+}
+
+/* Estilização do cabeçalho */
+header {
+    background-color: var(--cor-primaria);
+    color: var(--cor-secundaria);
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: var(--cor-secundaria);
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    color: var(--cor-hover);
+}
+
+/* Rodapé */
+footer {
+    background-color: var(--cor-primaria);
+    color: var(--cor-secundaria);
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
